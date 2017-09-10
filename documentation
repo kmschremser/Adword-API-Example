@@ -8,7 +8,9 @@
 8. Run "php composer.phar install". This will install all dependencies needed for running examples.
 9. Run "php GetRefreshToken.php" and follow the prompts
 10. Copy out the refresh token
-11. Open Adwords Account Manager https://adwords.google.com/um/identity
-12. Make sure you have chosen the same email account as for the Auth process initially created, can change from the top right dropdown
-13. Fill the form (note that only few currencies are supported for test API)
-11. Set up your adsapi_php.ini file with the credential
+11. Open https://adwords.google.com/um/StartNewMccAccount?testAccount=true and use same email as for Oauth.
+12. That is where your test account will run
+13. Open Adwords Account Manager https://adwords.google.com/um/identity
+12. Make sure to choose another email account different from that of Auth process initially used
+** If you already have an adword manager account, only use the developer API key, but use new email for test and Oauth **
+
